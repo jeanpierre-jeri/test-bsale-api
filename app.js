@@ -22,6 +22,6 @@ app.use(myconn(mysql, dbOptions, 'single'))
 
 app.use(express.json())
 
-app.use('/api', routes)
+app.use('/', routes)
 
 app.listen(app.get('PORT'), () => console.log('Servidor corriendo en puerto', app.get('PORT')))
