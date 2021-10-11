@@ -2,6 +2,10 @@ const express = require('express')
 const routes = express.Router()
 
 routes.get('/', (req,res) => {
+    res.send('Bienvenido a mi API de productos, para usarla entra a /api')
+})
+
+routes.get('/', (req,res) => {
     req.getConnection((err, conn) => {
         if (err) throw err
 
