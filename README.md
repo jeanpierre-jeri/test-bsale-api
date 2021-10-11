@@ -1,0 +1,1 @@
+This is the api that will send the data to the frontend of the app hosted in Netlify, this has the filtered search implement server side.
